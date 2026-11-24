@@ -16,3 +16,8 @@ resource "azurerm_resource_group" "rg" {
     name     = "rg-tera-demo"
     location = "East US"
 }
+
+resource "azurerm_resource_group" "rg1" {
+    name     = "rg-tera-demo1"
+    location = "East US"
+}
